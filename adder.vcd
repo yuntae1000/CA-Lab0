@@ -1,0 +1,43 @@
+$date
+	Wed Sep 30 16:09:12 2015
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testFullAdder $end
+$var reg 1 ! carryin $end
+$scope module adder0 $end
+$var wire 1 " a $end
+$var wire 1 # a0 $end
+$var wire 1 $ a1 $end
+$var wire 1 % b $end
+$var wire 1 & carryin $end
+$var wire 1 ' carryout $end
+$var wire 1 ( out $end
+$var wire 1 ) x0 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+z)
+x(
+x'
+0&
+1%
+z$
+z#
+1"
+0!
+$end
+#50
+1$
+0#
+0)
+#100
+1'
+0(
+#1000
