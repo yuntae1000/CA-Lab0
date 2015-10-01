@@ -38,7 +38,8 @@ module FullAdder4bit(
 	oneBitAdder adder1 (sum[1], c1, a[1], b[1], c0);
 	oneBitAdder adder2 (sum[2], c2, a[2], b[2], c1);
 	oneBitAdder adder3 (sum[3], carryout, a[3], b[3], c2);
-
+	
+	// if carryin and carryout of MSB are different there's a overflow
 	`XOR(overflow, c2, carryout);
 endmodule
 
